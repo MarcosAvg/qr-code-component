@@ -36,15 +36,9 @@ body {
 
 .card {
   background-color: var(--white);
-  width: 90%;
   margin: 20vh auto;
   border-radius: 1rem;
-}
-
-@media (min-width: 375px)  {
-  .card {
-    width: 20rem;
-  }
+  max-width: 20rem;
 }
 
 .card__content {
