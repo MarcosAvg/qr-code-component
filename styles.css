@@ -20,13 +20,9 @@ html {
   box-sizing: inherit;
 }
 
-h2,
+h1,
 p {
   margin: 0;
-}
-
-p {
-  font-size: 15px;
 }
 
 body {
@@ -59,10 +55,12 @@ body {
 
 .card__title {
   color: var(--slate900);
+  font-size: 1.375rem;
 }
 
 .card__description {
   color: var(--slate500);
   padding-top: 1rem;
   margin-bottom: 40px;
+  font-size: .9375rem;
 }
